@@ -1,0 +1,17 @@
+.image{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ring {
+    position: relative;
+    background-image: url("ring.png");
+    width: 33px;
+    height: 33px;
+    z-index: 1;
+    opacity: 0;
+}

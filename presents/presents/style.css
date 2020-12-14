@@ -1,0 +1,138 @@
+
+
+
+.slide {
+    position: relative;
+    bottom:80px;
+    width:80px;
+    height:80px;
+    margin-left: 47%;
+    transition: transform 1.5s;
+    transition-timing-function: linear;
+    margin-bottom: 20px;
+
+}
+
+
+.bin-and-item {
+    position: relative;
+    display: inline-block;
+    top:650px;
+    left:250px;
+}
+
+.bin {
+    position: absolute;
+    display: inline-block;
+    height: 150px;
+    z-index: 1;
+   bottom:100px;
+}
+
+
+
+.item-in-bin {
+    position: absolute;
+
+    width:70px;
+    left:20px;
+    bottom:185px;
+   
+        
+}
+
+.tree-and-items {
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+    right:230px;
+    visibility: hidden;
+}
+
+.tree {
+    position: absolute;
+    height: 400px;
+    margin-top: 150px;
+    z-index: 0;
+    visibility:visible;
+}
+
+.caramel {
+    position: absolute;
+    top: 370px;
+    left: 150px;
+    transform: rotate(45deg);
+    width:60px;
+}
+
+.green_ball {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    width:60px;
+}
+
+.red_ball {
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    width:80px;
+}
+
+
+
+.present {
+    position: absolute;
+    width:80px;
+    top: 480px;
+    left: 76px;
+}
+
+.star {
+    position: absolute;
+    top: 130px;
+    left: 140px;
+    width:80px;
+}
+
+.top_star {
+    position: absolute;
+    top: 350px;
+    left: 90px;
+    width:60px;
+}
+
+
+.lose {
+    position: absolute;
+    top: 190px;
+    left: 200px;
+    width:60px;
+}
+
+.base {
+    position: relative;
+    bottom: -450px;
+    background: url('images\\snow.jpg') no-repeat;
+    background-size: 100%;
+    min-height: 30vh;
+    z-index: -1;
+}
+
+
+
+.congr{
+    visibility: hidden;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.condolence {
+    text-align: center;
+    visibility: hidden;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
